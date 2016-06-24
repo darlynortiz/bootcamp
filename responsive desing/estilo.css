@@ -1,0 +1,103 @@
+
+
+#todo{
+
+	width: 100%;
+	margin: 0 auto;
+}
+
+#inicio{
+
+	background-color: #F3DD31;
+
+}
+
+article{
+	background-color:blue;
+	display: inline-block;
+	margin: 20px;
+	text-align: center;
+	color:#41E6F3;
+	height: 100%;
+    padding: 2%;
+    height: 400px;
+    float:left;
+     -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+	
+}
+
+footer{
+	background-color: #C517F3;
+	float: left;
+	width: 100%;
+}
+
+#dos{
+	background-color:#F3351D;}
+
+	@media screen and (max-width: 1366px){ /* resolucion para dispositivos */
+
+	#todo
+
+	{
+		width: 90%;
+		margin: 0 auto;
+	}
+
+}
+
+
+@media screen and (max-width: 936px){
+
+	#todo
+
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+
+}
+
+@media screen and (max-width: 600px){
+
+	#todo
+
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+
+}
+
+​
+
+@media screen and (max-width: 480px){
+
+	#todo
+
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	#column1
+
+	{
+		width: 100%;
+	}
+
+	#column2
+
+	{
+		width: 100%;
+	}
+
+	#column3
+
+	{
+		width: 100%;
+	}
+
+}

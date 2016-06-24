@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src=angular.min.js></script>
+</head>
+<body>
+<div ng-app="myApp" ng-controller="myController">
+<button ng-click="count = count + 1">click me!</button>
+<p>{{count}}</p>
+</div>
+<script>
+	var myApp=angular.module("myApp",[]);
+	myApp.controller("myController",function ($scope){
+		$scope.count=0;
+	});
+
+</script>
+</body>
+</html>

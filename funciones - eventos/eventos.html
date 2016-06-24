@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ejemplo eventos</title>
+
+</head>
+<body>
+
+<script>
+	function hola() {
+		console.log('entro');
+	    var person = prompt("Introduzca nombre: ", "John");
+	    if (person != null) {
+	        document.getElementById("demo").innerHTML ="Hola " + person + "! C&oacute;mo est&aacute;s?";
+	    }
+	}
+</script>
+<button onclick="hola()">Trata</button>
+<p id="demo"></p>
+
+</body>
+</html>

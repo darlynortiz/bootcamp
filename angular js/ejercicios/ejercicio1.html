@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio1</title>
+	<script src=angular.min.js></script>
+</head>
+<body>
+
+<div ng-app ="myApp" ng-controller=personController>
+Nombre:<input type="text" ng-model=Nombre><br>
+Apellido:<input type="text" ng-model=Apellido><br>
+Hola:{{Nombre+" "+Apellido}}
+</div>
+<script >
+var myApp=angular.module("myApp",[]);
+	myApp.controller("personController",function ($scope){
+		$scope.Nombre="";
+		$scope.Apellido="";
+
+	});
+</script>
+</body>
+</html>

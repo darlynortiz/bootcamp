@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+<script >
+       a=7;
+       b=10;
+       c=15;
+
+       if (a <10) 
+       {
+       	console.log("a es menor que 10") 
+       }
+       else if (a>10)
+       		{
+      console.log("a es mayor que 10") 
+       		}
+        else
+        {
+       console.log("a es igual que 10") 
+        }
+
+       if (b<10) 
+       {
+       	console.log("a es menor que 10") 
+       }
+       else if (b>10)
+       		{
+      console.log("a es mayor que 10") 
+       		}
+        else
+        {
+       console.log("a es igual que 10") 
+        }
+
+       if (c<10) 
+       {
+       	console.log("a es menor que 10") 
+       }
+       else if (a>10)
+       		{
+      console.log("a es mayor que 10") 
+       		}
+        else
+        {
+       console.log("a es igual que 10") 
+        }
+</script>
+</body>
+</html>

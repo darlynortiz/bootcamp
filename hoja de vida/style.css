@@ -1,0 +1,43 @@
+ 
+/*  
+Esto asegura que el tamaño de todos los elementos siempre será modificado de la manera más intuitiva. 
+{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*/
+
+h2{
+	color: #6B4DB6;
+	
+
+}
+ 
+ body{
+ background-color: #98F2F3;
+ }
+
+
+
+ th{
+ 	color:#6B4DB6;
+ }
+
+ table{
+
+ }
+
+ .imagen{
+ 	 position: absolute;
+ 	 left: 750px;
+ 	 height: 200px;
+ 	 width: 200px;
+ 	
+
+ }
+
+h1{
+
+  color: #5636A7;
+  }

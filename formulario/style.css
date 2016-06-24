@@ -1,0 +1,16 @@
+
+span{
+	color:rgba(0,0,0,0.5);
+}
+div{
+
+	margin: 20px;
+}
+
+textarea{
+	overflow: scroll;
+}
+
+html{
+	background-image: url();
+}

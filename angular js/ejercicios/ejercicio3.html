@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src=angular.min.js></script>
+</head>
+<body>
+<div ng-app="myApp">
+<input type="text" ng-model="text" placeholder="Enter you input here...">
+	<p>Input value: {{ text }}</p>
+	<p>Filtered value: {{ text|reverse }}</p>
+</div>
+<script>
+	var myApp = angular.module("myApp",[]);
+	myApp.filter("reverse", function(){
+		return function(input) {
+			
+			return input.split("").reverse().join("");
+		};
+	});
+
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cambiar nombre</title>
+	<script src=angular.min.js></script>
+</head>
+<body>
+<p>Try change the names</p>
+<div ng-app ="myApp" ng-controller=personController>
+fistName:<input type="text" ng-model=firstName><br>
+lasttName:<input type="text" ng-model=lastName><br>
+fullName:{{firstName+" "+lastName}}
+</div>
+<script >
+var myApp=angular.module("myApp",[]);
+	myApp.controller("personController",function ($scope){
+		$scope.firstName="john";
+		$scope.lastName="doe";
+
+	});
+</script>
+</body>
+</html>

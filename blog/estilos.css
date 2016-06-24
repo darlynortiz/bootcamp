@@ -1,0 +1,38 @@
+
+
+#inicio {
+    background-color:black;
+    color:#00ACFF;
+    text-align:center;
+    padding:50px;
+  font: bold 100% monospace;
+
+}
+#nav {
+    line-height:100px;
+    background-color:#00ACFF;
+    height:1000px;
+    width:200px;
+    float:left;
+    padding:10px;
+    color:black;
+    font-size: large ;
+
+
+}
+#section {
+    width:350px;
+    float:left;
+    padding:10px; 
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+    font: bold 100% monospace; 
+}
+
+
+ 

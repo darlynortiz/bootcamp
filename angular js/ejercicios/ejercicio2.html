@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ejercicio2</title>
+	<script src=angular.min.js></script>
+</head>
+<body>
+<div ng-app ="myApp" ng-controller=suma>
+Numero1:<input type="text" ng-model=a><br>
+Numero2:<input type="text" ng-model=b><br>
+<button ng-click="resultado = a* b">multiplicacion</button><br>
+resulado:{{resultado}}
+</div>
+<script >
+var myApp=angular.module("myApp",[]);
+  myApp.controller("suma",function ($scope){
+    $scope.Numero1="";
+    $scope.Numero2="";
+    $scope.count=0;
+
+  });
+   
+</script>
+
+</body>
+</html>

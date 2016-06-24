@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+
+	var n= Math.ceil(Math.random()*10);
+	var adivino = false;
+	for (var i=0;i<5;i++) 
+{
+	 var usuario= prompt ("Ingresar un valor" , "");
+	 if(usuario==n)
+	 	{ document.write("Adivinaste");
+	       adivino= true;
+	       break;
+	}
+	else{
+		document.write("siga intentando...<br>") 
+	}
+}
+if (!adivino) {
+	document.write("El numero es :" +n);
+}
+
+</script>
+</body>
+</html>

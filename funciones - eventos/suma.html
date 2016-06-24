@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<!--
+<script type="text/javascript">
+    function sumar(x, y) {
+
+        var resultado =x+y;
+
+        return resultado;
+        }
+</script>
+<button onclick="alert(sumar('hola ', 'como andan?'))">Sumar</button>
+-->
+<label>nombre</label>
+<input id="nombreId" type="texto" name="nombre">
+<script type="text/javascript">
+
+	function obtenerNombre(){
+
+		 var nombre=document.getElementById("nombreId").value;
+		 return nombre;
+
+	}
+
+</script>
+<button onclick="alert(obtenerNombre())">click</button>
+</body>
+</html>
